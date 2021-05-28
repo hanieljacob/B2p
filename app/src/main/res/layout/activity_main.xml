@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#010b13"
+    android:padding="16dp"
+   >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="BUTTON TO PRIVACY"
+        android:textAlignment="center"
+        android:background="#000000"
+        android:textColor="#aeaeff"
+        android:paddingTop="10pt"
+        android:id="@+id/headtext12"
+
+        />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:background="#010b13"
+
+        android:textColor="#aeaeff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="35pt"
+        android:layout_marginTop="90pt"
+        android:layout_marginRight="35pt"
+        android:layout_marginBottom="50pt"
+        android:background="@drawable/custom_dialog"
+        android:fontFamily="cursive"
+        android:onClick="scrollButton"
+        android:text="Protect Me"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:background="#010b13"
+        android:text="Click this button once and wait for 2 to 5 minutes"
+        android:textAlignment="center"
+        android:textColor="#aeaeff" />
+</LinearLayout>
